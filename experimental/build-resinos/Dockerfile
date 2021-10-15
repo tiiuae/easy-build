@@ -1,6 +1,6 @@
 # Docker image for building Resin OS
 
-FROM gmacario/build-yocto:latest
+FROM tiiuae/build-yocto:latest
 
 USER root
 

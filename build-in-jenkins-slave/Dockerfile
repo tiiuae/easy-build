@@ -1,7 +1,7 @@
 # Dockerfile for creating an easy-build baseimage implementing a Jenkins slave node
 # See https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds
 
-FROM gmacario/easy-build:latest
+FROM tiiuae/easy-build:latest
 
 MAINTAINER Gianpaolo Macario <gmacario@gmail.com>
 

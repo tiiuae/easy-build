@@ -2,17 +2,17 @@ version: '1.0'
 build_version: 'v2'
 steps:
   BuildingDockerImage_easybuild:
-    title: Building Docker Image gmacario/easy-build
+    title: Building Docker Image tiiuae/easy-build
     type: build
-    image_name: gmacario/easy-build
+    image_name: tiiuae/easy-build
     disable_push: true
     working_directory: ./
     tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
     dockerfile: Dockerfile
   BuildingDockerImage_buildyocto:
-    title: Building Docker Image gmacario/build-yocto
+    title: Building Docker Image tiiuae/build-yocto
     type: build
-    image_name: gmacario/build-yocto
+    image_name: tiiuae/build-yocto
     disable_push: true
     working_directory: ./build-yocto/
     tag: '${{CF_BRANCH_TAG_NORMALIZED}}'

@@ -1,8 +1,6 @@
 # build-capi-native
 
-[![](https://badge.imagelayers.io/gmacario/build-capi-native:latest.svg)](https://imagelayers.io/?images=gmacario/build-capi-native:latest 'Get your own badge on imagelayers.io')
-
-This subproject of [easy-build](https://github.com/gmacario/easy-build) provides a Docker image useful for building from sources the GENIVI [Common API C](http://git.projects.genivi.org/common-api/c-poc.git) project.
+This subproject of [easy-build](https://github.com/tiiuae/easy-build) provides a Docker image useful for building from sources the GENIVI [Common API C](http://git.projects.genivi.org/common-api/c-poc.git) project.
 
 ## Prerequisites
 
@@ -15,7 +13,7 @@ This subproject of [easy-build](https://github.com/gmacario/easy-build) provides
 
 ```
 $ cd easy-build
-$ docker build -t gmacario/build-capi-native build-capi-native/
+$ docker build -t tiiuae/build-capi-native build-capi-native/
 ```
 
 ### Build common-api/c-poc inside a container
@@ -23,7 +21,7 @@ $ docker build -t gmacario/build-capi-native build-capi-native/
 Run the container to prepare a proper development environment
 
 ```
-$ docker run -ti -u build -w /home/build gmacario/build-capi-native
+$ docker run -ti -u build -w /home/build tiiuae/build-capi-native
 ```
 
 Logged as _build@container_, execute the commands as explained in toplevel `README.adoc`

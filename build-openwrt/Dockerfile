@@ -5,7 +5,7 @@
 #	http://wiki.openwrt.org/doc/howto/buildroot.exigence
 # ===========================================================================================
 
-FROM gmacario/easy-build
+FROM tiiuae/easy-build
 
 MAINTAINER Gianpaolo Macario, gmacario@gmail.com
 

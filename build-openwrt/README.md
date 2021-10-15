@@ -1,7 +1,7 @@
 build-openwrt
 =============
 
-This subproject of [easy-build](https://github.com/gmacario/easy-build) provides
+This subproject of [easy-build](https://github.com/tiiuae/easy-build) provides
 a quick and easy way for creating an [OpenWrt](https://openwrt.org/) image.
 
 Building the Docker image

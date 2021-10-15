@@ -9,7 +9,7 @@ if [ "$1" != "" ]; then
 else
     CONTAINER=build-openwrt
 fi
-REPOSITORY=gmacario/build-openwrt
+REPOSITORY=tiiuae/build-openwrt
 SHAREDDIR=$PWD/shared
 
 # Create a shared folder which will be used as working directory.

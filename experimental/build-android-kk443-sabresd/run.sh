@@ -9,7 +9,7 @@ SHARED=$PWD/shared
 CCACHE=$(pwd)/shared/ccache
 CONTAINER_HOME=/home/build
 CONTAINER=$(basename $PWD)
-REPOSITORY=gmacario/$(basename $PWD)
+REPOSITORY=tiiuae/$(basename $PWD)
 TAG=latest
 [ "$FORCE_BUILD" == "" ] && FORCE_BUILD=0
 

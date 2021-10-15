@@ -6,7 +6,7 @@
 #	http://elinux.org/Getting_started_with_Yocto_on_Wandboard
 # ===========================================================================================
 
-FROM gmacario/build-yocto
+FROM tiiuae/build-yocto
 
 MAINTAINER Iwan Sanders, iwan.sanders@gmail.com
 

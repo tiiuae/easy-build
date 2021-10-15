@@ -5,7 +5,7 @@ We love pull requests. Here's a quick guide.
 ## Getting Started
 
 * Make sure you have a [GitHub account](https://github.com/signup/free)
-* [Submit a ticket for your issue](https://github.com/gmacario/easy-build/issues), assuming one does not already exist.
+* [Submit a ticket for your issue](https://github.com/tiiuae/easy-build/issues), assuming one does not already exist.
   * Clearly describe the issue including steps to reproduce when it is a bug.
   * Make sure you fill in the earliest version that you know has the issue.
 * Fork the repository on GitHub, then clone the repo:
@@ -70,8 +70,8 @@ a ticket number.
 ## Submitting Changes
 
 * Push your changes to a topic branch in your fork of the repository.
-* [Submit a pull request][pr] to the repository in the gmacario organization.
-[pr]: https://github.com/gmacario/easy-build/compare/
+* [Submit a pull request][pr] to the repository in the tiiuae organization.
+[pr]: https://github.com/tiiuae/easy-build/compare/
 * After feedback has been given we expect responses within two weeks.
   We may suggest some changes or improvements or alternatives. After two
   weeks we may close the pull request if it isn't showing any activity.

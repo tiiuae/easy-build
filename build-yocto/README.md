@@ -1,27 +1,25 @@
 build-yocto
 ===========
 
-[![](https://images.microbadger.com/badges/image/gmacario/build-yocto.svg)](https://microbadger.com/images/gmacario/build-yocto "Get your own image badge on microbadger.com")
-
-This subproject of [easy-build](https://github.com/gmacario/easy-build) provides a quick and easy way
+This subproject of [easy-build](https://github.com/tiiuae/easy-build) provides a quick and easy way
 for creating embedded Linux distributions using the [Yocto Project](https://www.yoctoproject.org/) tools.
 
 Building the Docker image
 -------------------------
 
     $ cd .../easy-build
-    $ docker build -t gmacario/build-yocto build-yocto/
+    $ docker build -t tiiuae/build-yocto build-yocto/
 
 Running the Docker image
 ------------------------
 
 Type the following command to instantiate a clean development environment for the Yocto Project:
 
-    $ docker run -ti gmacario/build-yocto
+    $ docker run -ti tiiuae/build-yocto
 
 Optionally, you may use the `--volume=[host-src:]container-dest` option to share a directory between the host and the container, as in the following example
 
-    $ docker run -ti --volume=${PWD}/shared:/home/build/shared gmacario/build-yocto
+    $ docker run -ti --volume=${PWD}/shared:/home/build/shared tiiuae/build-yocto
 
 Please refer to https://docs.docker.com/engine/reference/run/#volume-shared-filesystems for details
 

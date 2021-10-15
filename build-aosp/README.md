@@ -8,13 +8,13 @@ WARNING: Still experimental, use at your own risk!
 ### Build the Docker image
 
 ```
-$ docker build -t gmacario/build-aosp build-aosp/
+$ docker build -t tiiuae/build-aosp build-aosp/
 ```
 
 ### Run the Docker image
 
 ```
-$ docker run -ti gmacario/build-aosp
+$ docker run -ti tiiuae/build-aosp
 ```
 
 Then logged as build@container you may follow the instructions at https://source.android.com/source/downloading.html:
